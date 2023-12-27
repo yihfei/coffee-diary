@@ -42,10 +42,13 @@ button {
   margin-top: 10px;
   cursor: pointer;
   border-radius: 4px;
+
+  transition: transform 0.3s ease 0s;
 }
 
 button:hover {
   background-color: #0056b3;
+  transform: translateY(-3px);
 }
 
 label,
@@ -122,6 +125,14 @@ button {
   margin: 0 auto;
 }
 
+/* BrewSelection.css */
 
+.animated-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.animated-icon:hover {
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+}
 
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './Home';
-import Create from './Create'
+import BrewSelection from './BrewSelection';
+import CreateFilter from './CreateFilter'
 import Edit from './Edit';
 import { Route, Routes } from "react-router-dom";
 import Navbar from './Navbar';
@@ -11,7 +12,8 @@ const App = () => {
       <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/create" element={<Create />} />
+          <Route path="/create" element={<BrewSelection />} />
+          <Route path="/createfilter" element={<CreateFilter />} />
           <Route path="/edit/:id" element={<Edit />}/>
         </Routes>
     </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Create = () => {
+const CreateFilter = () => {
   
   const [coffeeType, setCoffeeType] = useState('');
   const [amountUsed, setAmountUsed] = useState('');
@@ -103,4 +103,4 @@ const Create = () => {
   );
 }
  
-export default Create;
+export default CreateFilter;
