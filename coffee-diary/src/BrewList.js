@@ -33,6 +33,7 @@ const BrewList = ({ brews , setBrews }) => { // Destructure the props to get 'br
               ))}
             </div>
             <p><strong>Total Drain Time:</strong> {brew.totalDrainTime}</p>
+            <p><strong>Remarks:</strong> {brew.remark}</p>
             <button onClick={() => handleClick(brew.id)}>delete</button>
             <Link to={`/edit/${brew.id}`}>
                 <button>edit</button>

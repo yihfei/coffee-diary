@@ -20,24 +20,26 @@
           "volume": "50ml"
         }
       ],
-      "totalDrainTime": "3.5 minutes"
+      "totalDrainTime": "3.5 minutes",
+      "remark": "Smooth and rich flavor profile."
     },
     {
-      "coffeeType": "owl",
-      "grindSetting": "medium",
-      "waterTemperature": "100 c",
+      "id": 4,
+      "coffeeType": "Owl",
+      "grindSetting": "Medium",
+      "waterTemperature": "100°C",
       "pours": [
         {
           "pourNumber": 1,
-          "volume": "20"
+          "volume": "20ml"
         },
         {
           "pourNumber": 2,
-          "volume": "20"
+          "volume": "20ml"
         },
         {
           "pourNumber": 3,
-          "volume": "30"
+          "volume": "30ml"
         },
         {
           "pourNumber": 4,
@@ -45,7 +47,7 @@
         }
       ],
       "totalDrainTime": "3 minutes",
-      "id": 4
+      "remark": "Bold and robust with a hint of acidity."
     }
   ]
 }
